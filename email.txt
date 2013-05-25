@@ -1,0 +1,5 @@
+# lines that start with hash / pound sign # will be ignored
+# lines that start with whitespace will be ignored
+# one emailaddress per line
+name@your_domain.com
+name2@your_domain.com

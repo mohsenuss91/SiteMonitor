@@ -1,0 +1,32 @@
+# lines that start with hash / pound sign # will be ignored
+# lines that start with whitespace will be ignored
+##################################
+## Monitor definitions ##
+
+# Monitor 1
+MON,Monitor1
+# Site file name
+SIT,sites.txt
+# Email file name
+EMA,email.txt
+
+## End of monitor definitions
+
+##################################
+## General email server settings ##
+
+SMTPSERVER,smtp.localhost
+PORT,587
+USERNAME,your_username
+PASSWORD,your_password
+FROM,your_email_address
+
+## End of general email server settings ##
+
+##################################
+## General settings ##
+
+# time interval between checks for all monitors in seconds
+TIM,300
+
+## End of general definitions ##

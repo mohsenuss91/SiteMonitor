@@ -1,0 +1,5 @@
+# lines that start with hash / pound sign # will be ignored
+# lines that start with whitespace will be ignored
+# one url per line
+http://www.google.com
+http://www.yahoo.com
